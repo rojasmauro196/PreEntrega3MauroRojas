@@ -218,6 +218,45 @@ button:hover{
     background-image: url(../img/pexels-mart-production-7222715.jpg);
 }
 
+.info{
+    margin: -10% 10% 10% 0;
+}
+
+.titulo h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.tituloLocales{
+    font-weight: bold;
+}
+.tituloLocales span{
+    color: #800080;
+}
+
+.locales{
+    text-align: center;
+}
+
+.infoLocales{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.direccionInfo, .telefonoInfo{
+    font-weight: 600;
+}
+
+.locales a:hover{
+    color: #7838b9;
+}
+
+.img-urquiza img{
+    border-radius: 10%;
+    height: 500px;
+}
+
 footer{
     background: #3B2D4D;
     height: 100px;
