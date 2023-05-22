@@ -189,6 +189,11 @@ button:hover {
 .cartas {
   border: 2px solid black;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+.cartas:hover {
+  transform: translateY(-10px);
+  background-color: #7838b9;
 }
 
 .box {
