@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300;1,400;1,500&family=Libre+Franklin:wght@100&display=swap');
+/*font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;*/
+
+$color1: #FFFFFF;
+$color2: white;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A189B8;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    background-color: #3B2D4D;
+}
+
+.navbar-brand {
+    color: $color1 !important;
+}
+
+.nav-link {
+    color: $color1 !important;
+    text-transform: capitalize;
+}
+
+.navbar-toggler {
+    border-color: $color1 !important;
+    border-style: dashed;
+    padding: 8px;
+}
+
+.fa-solid {
+    color: $color1;
+}
+
+.container {
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.section-one {
+    flex: 1 1 60%;
+    padding: 20px;
+
+    h1 {
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.section-two {
+    flex: 1 1 40%;
+    padding: 20px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p1::first-letter {
+    text-transform: uppercase;
+}
+
+.img-one {
+    height: 400px;
+}
+
+.formulario {
+    margin: auto;
+    border: 5px solid #745E89;
+}
+
+.section-form {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+legend {
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+label {
+    color: $color1;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+fieldset {
+    padding-top: 5%;
+}
+
+input, textarea {
+    border-radius: 10px;
+    border-color: black;
+}
+
+.buttom {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    color: $color1;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #745E89;
+
+    &:hover {
+        background-color: #3B2D4D;
+    }
+}
+
+.productos {
+    color: $color1;
+    font-size: 20px;
+    margin-top: -15%;
+    text-shadow: 1px 1px 2px #7838b9;
+
+    h1 {
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.galeria {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (6, 400px);
+}
+
+.gal {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1 {
+    background-image: url(../img/coffee-1711012_1280.jpg);
+}
+
+.item2 {
+    background-image: url(../img/black-2598314_1280.jpg);
+}
+
+.item3 {
+    background-image: url(../img/coffee-1487333_1280.jpg);
+}
+
+.item4 {
+    background-image: url(../img/drink-4667507_1280.jpg);
+}
+
+.item5 {
+    background-image: url(../img/caffeine-1867326_1280.jpg);
+}
+
+.item6 {
+    background-image: url(../img/cup-932054_1280.jpg);
+}
+
+.container-2 {
+    height: 720px;
+    width: 100%;
+    margin-top: -10%;
+    display: flex;
+    gap: 10px;
+}
+
+.cartas {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.box {
+    background-position: center;
+    background-size: cover;
+}
+
+.upper {
+    text-transform: capitalize;
+}
+
+.cartas-im1{
+    height: 500px;
+    background-image: url(../img/pexels-maryia-plashchynskaya-7411170.jpg);
+}
+
+.cartas-im2{
+    height: 500px;
+    background-image: url(../img/pexels-dinielle-de-veyra-4195342.jpg);
+}
+
+.cartas-im3{
+    height: 500px;
+    background-image: url(../img/pexels-mart-production-7222715.jpg);
+}
+
+.info{
+    margin: -10% 10% 10% 0;
+}
+
+.info {
+    margin: -10% 10% 10% 0;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.tituloLocales {
+    font-weight: bold;
+
+    span {
+        color: #800080;
+    }
+}
+
+.locales {
+    text-align: center;
+}
+
+.infoLocales {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.direccionInfo, .telefonoInfo {
+    font-weight: 600;
+}
+
+.locales a:hover {
+    color: #7838b9;
+}
+
+.img-urquiza img {
+    border-radius: 10%;
+    height: 500px;
+}
+
+footer {
+    background: #3B2D4D;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+
+    p {
+        color: $color2;
+        text-transform: capitalize;
+    }
+
+    i {
+        color: $color2;
+        font-size: 20px;
+        padding-left: 40px;
+    }
+
+    .redes:hover {
+        color: lightgrey;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 720px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40%;
+    }
+
+    footer i {
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 990px) {
+    .img-one {
+        margin-top: -20%;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+    .galeria {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .item1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .item2 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .item3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .item4 {
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    .item5 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .item6 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+}
+
+@media only screen and (min-width: 892px) and (max-width: 1920px) {
+    .container-2 {
+        height: 1000px;
+        margin-bottom: 30%;
+    }
+
+    .p1 {
+        padding: 5%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 220px) and (max-width: 891px) {
+    .container-2 {
+        display: block;
+    }
+
+    .cartas {
+        height: 100vh;
+    }
+
+    .box {
+        max-height: 80vh !important;
+        height: 60vh !important;
+    }
+}
